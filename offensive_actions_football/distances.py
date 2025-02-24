@@ -6,8 +6,8 @@ import torch
 from tqdm import tqdm
 
 from config.config_field import FIELD_HEIGHT, FIELD_WIDTH, GRID_HEIGHT, GRID_WIDTH
-from utils.states_actions import DECODE_ACTIONS, decodify_states
-from utils.field import get_centers_torch
+from offensive_actions_football.states_actions import DECODE_ACTIONS, decodify_states
+from offensive_actions_football.field import get_centers_torch
 
 from config.config_distance import OPEN_PLAY_PEN, DIFERENT_ACTION_PEN, \
                                     SYMMETRIC_FACTOR, INCREMENT_FACTOR, \
