@@ -7,10 +7,10 @@ from matplotlib.patches import RegularPolygon, Circle, Rectangle
 
 from config.config_field import GRID_HEIGHT, GRID_WIDTH, \
                                 FIELD_HEIGHT, FIELD_WIDTH
-from utils.states_actions import decodify_states, DECODE_ACTIONS
-from utils.field import get_centers, get_centers_int
-from utils.field_plots import draw_pitch
-from utils.field_draws import get_point_at_distance, draw_line, \
+from offensive_actions_football.states_actions import decodify_states, DECODE_ACTIONS
+from offensive_actions_football.field import get_centers, get_centers_int
+from offensive_actions_football.field_plots import draw_pitch
+from offensive_actions_football.field_draws import get_point_at_distance, draw_line, \
                                 draw_own_arrow, draw_circle, \
                                 draw_soccer_ball, draw_flag
 
