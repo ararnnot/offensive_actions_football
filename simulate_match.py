@@ -11,8 +11,8 @@ from PIL import Image
 from tqdm import tqdm
 
 from config.config_field import GRID_HEIGHT, GRID_WIDTH
-from utils.states_actions import decodify_states, CODE_STATES
-from utils.field_play import draw_state_actions
+from offensive_actions_football.states_actions import decodify_states, CODE_STATES
+from offensive_actions_football.field_play import draw_state_actions
 
 #%%
 
