@@ -6,8 +6,8 @@ import os
 import json
 from tqdm import tqdm
 
-from utils.field import convert_field_grid, carry_line
-from utils.states_actions import codify_states, codify_actions
+from offensive_actions_football.field import convert_field_grid, carry_line
+from offensive_actions_football.states_actions import codify_states, codify_actions
 
 #%% Import data
 
