@@ -11,7 +11,7 @@ from tqdm import tqdm
 
 from config.config_field import GRID_HEIGHT, GRID_WIDTH
 from config.config_distance import MINIMUM_SA, MINIMUM_SHOTS 
-from utils.states_actions import CODE_ACTIONS, CODE_STATES, \
+from offensive_actions_football.states_actions import CODE_ACTIONS, CODE_STATES, \
                                     decodify_states, codify_states
 from config.config_Q import GAMMA, LEARNING_RATE, EPOCHS, RANDOMNESS
 
