@@ -6,11 +6,11 @@ import os
 import json
 from tqdm import tqdm
 
-from utils.states_actions import CODE_ACTIONS, CODE_STATES, \
+from offensive_actions_football.states_actions import CODE_ACTIONS, CODE_STATES, \
                                     sa_out_field, state_flip, \
                                     decodify_states, DECODE_ACTIONS
-from utils.lipschitz_extension import Lipschitz_Vector, Lipschitz_Real
-from utils.distances import distance_matrix_states, distance_matrix_state_action
+from offensive_actions_football.lipschitz_extension import Lipschitz_Vector, Lipschitz_Real
+from offensive_actions_football.distances import distance_matrix_states, distance_matrix_state_action
 from config.config_distance import MINIMUM_SA, MINIMUM_SHOTS, NO_SHOTS_ZERO, \
                                     MAX_PASS_DISTANCE
 from config.config_field import SIZE_GRID_FACTOR, GRID_HEIGHT, GRID_WIDTH
