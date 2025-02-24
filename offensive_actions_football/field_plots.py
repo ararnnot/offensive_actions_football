@@ -7,10 +7,10 @@ from matplotlib import colormaps as cm
 from matplotlib.colors import Normalize, PowerNorm
 
 from config.config_field import GRID_HEIGHT, GRID_WIDTH, FIELD_HEIGHT, FIELD_WIDTH
-from utils.states_actions import decodify_states, DECODE_ACTIONS, \
+from offensive_actions_football.states_actions import decodify_states, DECODE_ACTIONS, \
                                     codify_states, codify_actions
-from utils.field import get_centers, get_centers_int
-from utils.field_draws import draw_line, get_point_at_distance, \
+from offensive_actions_football.field import get_centers, get_centers_int
+from offensive_actions_football.field_draws import draw_line, get_point_at_distance, \
                                 draw_own_arrow
 
 def draw_pitch(fig = None, ax = None, color = 'black', background = 'white'):
