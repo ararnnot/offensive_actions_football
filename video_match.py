@@ -8,7 +8,7 @@ from PIL import Image
 import io
 from tqdm import tqdm
 
-from utils.field_play import draw_state_actions
+from offensive_actions_football.field_play import draw_state_actions
 
 #%% Load data
 
