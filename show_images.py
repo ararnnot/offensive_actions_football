@@ -6,9 +6,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
 
-from utils.field_plots import draw_values, draw_action, \
+from offensive_actions_football.field_plots import draw_values, draw_action, \
                                 draw_pitch, draw_separators  
-from utils.states_actions import codify_states, decodify_states, \
+from offensive_actions_football.states_actions import codify_states, decodify_states, \
                                     CODE_ACTIONS, CODE_STATES, DECODE_ACTIONS
 from config.config_distance import MINIMUM_SA, MINIMUM_SHOTS 
 from config.config_field import GRID_WIDTH, GRID_HEIGHT
