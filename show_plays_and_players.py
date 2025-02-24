@@ -4,10 +4,10 @@ import pandas as pd
 import numpy as np
 import json
 
-from utils.field_play import draw_state_actions, draw_state_action_values
-from utils.states_actions import CODE_STATES, CODE_ACTIONS, \
+from offensive_actions_football.field_play import draw_state_actions, draw_state_action_values
+from offensive_actions_football.states_actions import CODE_STATES, CODE_ACTIONS, \
                                     decodify_states, DECODE_ACTIONS
-from utils.tables_latex import table_san, table_values
+from offensive_actions_football.tables_latex import table_san, table_values
 
 #%%
 
